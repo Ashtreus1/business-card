@@ -1,0 +1,62 @@
+body{
+    background-color: rgb(76,76,76);
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;    
+}
+
+.card{
+    display: flex;
+    position: relative;
+    left: 23%;
+    margin-top: 100px;
+    width: 50%;
+    padding: 1em 1em;
+    background-color: rgb(97,97,97);
+    border-bottom: black solid 5px;
+    border-radius: 0.5em;
+    cursor: pointer;
+    transition: all 1s;
+}
+
+.card:hover{
+    background-color: #303030;
+    transform: translateY(-10px);
+    border: none;
+    box-shadow: 20px 10px 5px whitesmoke;
+    color: whitesmoke;
+}
+
+.text-wrapper{
+    position: relative;
+    margin-left: 10px;
+    margin-right: 10px;
+    text-align: center;
+}
+
+.contact{
+    padding: 1em 1em;
+    font-weight: bolder;
+    font-variant: small-caps;
+    width: 50%;
+    border-radius: 0.5em;
+    border: none;
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    transition: all 0.5s;
+}
+
+.contact:hover{
+    transform: scale(1.1, 1.1);
+    background-color: black;
+    color: white;
+}
+
+img {
+    width: 200px;
+    height: 300px;
+    border-radius: 0.5em;
+}
+
+
+
